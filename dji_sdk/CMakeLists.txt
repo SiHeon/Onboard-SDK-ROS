@@ -8,6 +8,7 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
   message_generation
   nav_msgs
+  mav_msgs
   roscpp
   rospy
   std_msgs
@@ -119,6 +120,7 @@ generate_messages(
   DEPENDENCIES
   geometry_msgs
   nav_msgs
+  mav_msgs
   std_msgs
   sensor_msgs
 )
@@ -138,6 +140,7 @@ catkin_package(
         message_runtime
         geometry_msgs
         nav_msgs
+        mav_msgs
         std_msgs
         nmea_msgs
 )
@@ -225,5 +228,3 @@ install(DIRECTORY launch
 #   # myfile2
 #   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 # )
-
-

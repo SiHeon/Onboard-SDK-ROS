@@ -25,6 +25,9 @@
 #include <sensor_msgs/TimeReference.h>
 #include <sensor_msgs/BatteryState.h>
 #include <sensor_msgs/Image.h>
+#include <mav_msgs/RollPitchYawrateThrust.h>
+#include <mav_msgs/default_topics.h>
+#include <mav_msgs/Status.h>
 #include <std_msgs/UInt8.h>
 #include <std_msgs/Int16.h>
 #include <std_msgs/Float32.h>
