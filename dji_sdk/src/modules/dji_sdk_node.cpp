@@ -190,6 +190,7 @@ DJISDKNode::initFlightControl(ros::NodeHandle& nh)
       "dji_sdk/flight_control_setpoint_rollpitch_yawrate_zposition", 10,
       &DJISDKNode::flightControlRollPitchPzYawrateCallback, this);
       */
+      
   flight_control_rollpitch_yawrate_vertpos_sub =
     nh.subscribe(mav_msgs::default_topics::COMMAND_ROLL_PITCH_YAWRATE_THRUST, 1,
       &DJISDKNode::flightControlRollPitchPzYawrateCallback, this);
